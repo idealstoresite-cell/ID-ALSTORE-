@@ -1,0 +1,187 @@
+/* ===== BODY ===== */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ffffff 0%, #EAF6FF 100%);
+    color: #333;
+}
+
+/* ===== HEADER ===== */
+header {
+    display: flex;
+    flex-direction: column; /* menu vertical */
+    align-items: flex-start;
+    padding: 15px 20px;
+    background-color: #ffffffcc; /* blanc semi-transparent */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Logo et nom */
+header .header-left {
+    display: flex;
+    align-items: center;
+}
+
+header .logo {
+    width: 100px; /* logo conservé */
+    height: auto;
+    margin-right: 15px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #0B3D91;
+}
+
+/* MENU vertical */
+header nav {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column; /* chaque lien sur sa ligne */
+}
+
+header nav a {
+    text-decoration: none;
+    color: #0B3D91;
+    font-weight: bold;
+    margin: 5px 0; /* espace entre les liens */
+    font-size: 18px;
+}
+
+header nav a:hover {
+    color: #0056b3;
+}
+
+/* ===== HERO SECTION ===== */
+.hero {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.hero-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+/* IMAGES GROSSES ET COINS ARRONDIS */
+.hero-img,
+.category-img,
+.product-card img {
+    width: 250px;       /* gros carré */
+    height: 250px;      /* carré */
+    object-fit: cover;  /* image remplit le carré sans déformation */
+    border-radius: 15px; /* coins arrondis */
+    margin-bottom: 10px;
+}
+
+/* ===== HERO BUTTONS ===== */
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.btn-whatsapp {
+    background-color: #25D366; /* vert WhatsApp */
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.btn-whatsapp:hover {
+    background-color: #1ebe5b;
+}
+
+.btn-products {
+    background-color: #007BFF; /* bleu */
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.btn-products:hover {
+    background-color: #0056b3;
+}
+
+/* ===== CATÉGORIES ===== */
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px 10px;
+}
+
+.category {
+    text-align: center;
+}
+
+.category h3 {
+    font-size: 20px;
+    margin: 10px 0 5px 0;
+}
+
+.category p {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+}
+
+.btn-category {
+    background-color: #00BFFF; /* bleu ciel */
+    color: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.btn-category:hover {
+    background-color: #009acd;
+}
+
+/* ===== POURQUOI IDEALSTORE ===== */
+.why {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.why h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.why ul {
+    list-style: none;
+    padding: 0;
+}
+
+.why li {
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+/* ===== ICÔNE WHATSAPP PETITE ===== */
+.whatsapp-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+
+.fb-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}

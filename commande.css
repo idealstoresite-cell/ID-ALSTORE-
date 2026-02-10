@@ -1,0 +1,149 @@
+/* ===== BODY ===== */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ffffff 0%, #EAF6FF 100%);
+    color: #333;
+}
+
+/* ===== HEADER ===== */
+header {
+    display: flex;
+    flex-direction: column; /* menu vertical */
+    align-items: flex-start;
+    padding: 15px 20px;
+    background-color: #ffffffcc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Logo et nom */
+header .header-left {
+    display: flex;
+    align-items: center;
+}
+
+header .logo {
+    width: 100px;
+    height: auto;
+    margin-right: 15px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #0B3D91;
+}
+
+/* MENU vertical */
+header nav {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #0B3D91;
+    font-weight: bold;
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    color: #0056b3;
+}
+
+/* ===== TITRE PAGE ===== */
+.page-title {
+    text-align: center;
+    margin: 30px 0 20px 0;
+}
+
+.page-title h2 {
+    font-size: 28px;
+    color: #0B3D91;
+}
+
+/* ===== INSTRUCTIONS ===== */
+.instructions {
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    padding: 0 15px;
+}
+
+.instructions h3 {
+    font-size: 22px;
+    color: #0B3D91;
+    margin-bottom: 15px;
+}
+
+.instructions ol {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* ===== BOUTONS ===== */
+.order-buttons {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.btn-whatsapp, .btn-facebook {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 18px;
+    color: white;
+    transition: 0.3s;
+}
+
+/* WhatsApp */
+.btn-whatsapp {
+    background-color: #25D366;
+}
+
+.btn-whatsapp:hover {
+    background-color: #1ebe5b;
+}
+
+/* Facebook */
+.btn-facebook {
+    background-color: #1877F2;
+}
+
+.btn-facebook:hover {
+    background-color: #125ab3;
+}
+
+/* ===== INFOS UTILES ===== */
+.infos {
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+    padding: 0 15px;
+    font-size: 18px;
+}
+
+.infos p {
+    margin: 8px 0;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #ffffffcc;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+
+footer .socials img {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 5px;
+}

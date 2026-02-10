@@ -1,0 +1,165 @@
+/* ===== BODY ===== */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ffffff 0%, #EAF6FF 100%);
+    color: #333;
+}
+
+/* ===== HEADER ===== */
+header {
+    display: flex;
+    flex-direction: column; /* menu vertical */
+    align-items: flex-start;
+    padding: 15px 20px;
+    background-color: #ffffffcc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .header-left {
+    display: flex;
+    align-items: center;
+}
+
+header .logo {
+    width: 100px;
+    height: auto;
+    margin-right: 15px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #0B3D91;
+}
+
+/* MENU vertical */
+header nav {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #0B3D91;
+    font-weight: bold;
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    color: #0056b3;
+}
+
+/* ===== TITRE PAGE ===== */
+.page-title {
+    text-align: center;
+    margin: 30px 0 20px 0;
+}
+
+.page-title h2 {
+    font-size: 28px;
+    color: #0B3D91;
+}
+
+/* ===== PRESENTATION ===== */
+.presentation {
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    padding: 0 15px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* ===== MISSION & ENGAGEMENT ===== */
+.mission, .engagement {
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    padding: 0 15px;
+}
+
+.mission h3, .engagement h3, .style h3 {
+    font-size: 22px;
+    color: #0B3D91;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.mission p, .engagement ul {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* LISTE ENGAGEMENT */
+.engagement ul {
+    list-style: disc;
+    padding-left: 20px;
+    display: inline-block;
+    text-align: left;
+}
+
+/* IMAGE MISSION & ENGAGEMENT */
+.section-img {
+    display: block;
+    margin: 15px auto;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* ===== STYLE ===== */
+.style {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.style-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.style-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #ffffffcc;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+
+footer .socials img {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+
+.whatsapp-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.fb-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
