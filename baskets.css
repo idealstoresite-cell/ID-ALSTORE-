@@ -195,3 +195,7 @@ footer .socials img {
     border-radius: 5px;
     vertical-align: middle;
 }
+
+.hidden-products {
+    display: none;
+}
