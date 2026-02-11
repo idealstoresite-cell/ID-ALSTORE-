@@ -185,3 +185,25 @@ header nav a:hover {
     height: 40px;
     object-fit: contain;
 }
+/* Section Bienvenue */
+.welcome {
+    text-align: center;
+    padding: 70px 20px;
+    background: linear-gradient(to right, #000000, #222222);
+    color: white;
+}
+
+.welcome .slogan {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #25D366;
+}
+
+.welcome p {
+    font-size: 16px;
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #dddddd;
+}
